@@ -1,5 +1,5 @@
 """
-ASGI config for assignment1sam project.
+ASGI config for samassi1 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'assignment1sam.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'samassi1.settings')
 
 application = get_asgi_application()
